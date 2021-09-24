@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #222222;
+    padding: 18px 0;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_left, .header_right{
+    display: flex;
+    align-items: center;
+}
+.logo_link{
+    text-decoration: none;
+    color: white;
+    margin-right: 41px;
+}
+.search_button, .main_menu_button{
+    background-color: transparent;
+    border: none;
+}
+.registry_link, .cart_link{
+    text-decoration: none;
+    color: white;
+    margin-left: 33px;
+}
+.intro{
+    background: #F1E4E6;
+}
+.intro_container{
+    height: 765px;
+    background-image: url(../img/intro-pic.png);
+    background-repeat: no-repeat;
+    background-position-x: -226px;
+    background-position-y: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.intro_title{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 40px;
+    color: #222222;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    margin-right: 90px;
+}
+.intro_title_small{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+.intro_title_pink{
+    color: #F16D7F;
+}
+.categories{
+    padding-top: 65px;
+    padding-bottom: 85px;
+}
+.categories_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cat_item{
+    background-color: #C4C4C4;
+    width: 360px;
+    height: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cat_sale{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.cat_name{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+.cat_item_women{
+    background-image: url(../img/cat_women.jpg);
+}
+.cat_item_men{
+    background-image: url(../img/cat_men.jpg);
+}
+.cat_item_kids{
+    background-image: url(../img/cat_kids.jpg);
+}
+.cat_item_acc{
+    margin-top: 30px;
+    width: 100%;
+    height: 180px;
+    background-image: url(../img/cat_acc.jpg);
+}
+
+
+.fetured_items{
+    
+}
+.fetured_items_container{
+    text-align: center;
+    
+}
+.fet_it_head{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+.fet_text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+}
+.card_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    list-style-type: none;
+}
+.card_box{
+    background: #F8F8F8;
+    margin-bottom: 30px;
+    width: 360px;
+    text-align: start;
+}
+.card_heading{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding-top: 25px;
+    padding-left: 18px;
+}
+.card_text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+}
+.card_price{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding-bottom: 20px;
+    padding-left: 18px;
+}
+.advantages{
+background-color: #222224;
+}
+.feedback{
+
+}
+.footer{
+    background: #222224;
+}
