@@ -1,0 +1,36 @@
+
+@import "_vars.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, button {
+    font-family: "Lato", sans-serif;
+}
+
+.container {   
+    width: 1140px;
+    margin: 0 auto;
+}
+/*MAIN PAGE*/
+
+@import "blocks/_header.scss";
+@import "blocks/_intro.scss";
+@import "blocks/_categories.scss";
+@import "blocks/_fetured_items.scss";
+@import "blocks/_advantages.scss";
+@import "blocks/_feedback_subscribe";
+@import "blocks/_footer.scss";
+@import "blocks/_shopping_cart.scss";
+@import "blocks/_registration.scss";
+
+/*CATALOG*/
+@import "blocks/_navigation.scss";
+@import "blocks/_filter.scss";
+@import "blocks/_pagination.scss";
+
+
+/*PRODUCT*/
+@import "blocks/_products.scss"

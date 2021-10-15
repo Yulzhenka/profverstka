@@ -1,0 +1,131 @@
+.products{
+    background-color: #F7F7F7;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 64px;
+}
+.slider{
+    border: none;
+    background: rgba(42, 42, 42, 0.15);
+    padding: 12.65px 17.3px;
+}
+.slider_svg{
+    fill:black;
+}
+
+.slider:hover {
+    transition: 0.5s;
+    background: black;
+    &:hover .slider_svg{
+        fill:$highlighted_color;
+        transition: 0.5s;
+    }
+} 
+.descript{
+}
+.discript_container{
+    margin-top: -62px;
+    background-color: white;
+    border: 1px solid #EAEAEA;
+    text-align: center;
+    padding-bottom: 65px;
+}
+.name_collection{
+    color: $highlighted_color;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 64.5px;
+}
+.brand{
+    padding-top: 12px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+}
+.descript_text{
+    padding: 48.41px 294px 32px 292px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5E5E5E;
+}
+.price{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: $highlighted_color;
+    padding-bottom: 48px;    
+}
+.choose{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 49px;
+}
+.arrow{
+    fill:#6F6E6E;
+}
+.choose_block{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 23px;
+    align-items: center;
+    &:hover .choose_what {
+        color: $highlighted_color;
+        transition: 0.4s;
+        } 
+}
+
+.choose_btn{
+    border: none;
+    background-color: white;
+    padding-left: 9px;
+}
+.choose_what{
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+
+.add_to_cart{
+    padding-left: 33px;
+    font-size: 16px;
+    line-height: 19px;
+    color: $highlighted_color;  
+}
+.add_to_cart_btn{
+    border: 1px solid $highlighted_color;
+    background-color: white;
+    padding: 14.62px 66.5px 13.61px 23.5px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.symb_cart_svg {
+    fill: $highlighted_color;
+}
+.add_to_cart_btn:hover{
+    background-color: $highlighted_color;
+    transition: 0.4s;
+    &:hover .add_to_cart{
+            color: #FFFFFF;
+            transition: 0.4s;}
+        &:hover .symb_cart_svg {
+        fill: #ffffff;
+        transition: 0.4s;
+    }
+    }
+
+.cart_logo{
+
+}
+
+.product_items_container{
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 33px;  
+}

@@ -1,0 +1,207 @@
+.shopping_cart_box{
+    background-color: #F8F3F4;
+    padding-top: 59px;
+    padding-bottom: 60px;
+}
+.shopping_cart{
+    color: $highlighted_color;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+.selected_item_form_box{
+    padding-top: 96px;
+    display: flex;
+}
+.selected_item_card{
+    display: flex;
+    justify-content: left;
+    box-shadow: 20px 20px 20px 0px rgba(34, 60, 80, 0.2);
+    
+    margin-bottom: 40px;
+}
+.selected_item_img{
+    display: block;
+}
+.selected_item_discribe{
+    padding-top: 22px;
+    padding-left: 31px;
+}
+.product_name{
+    padding-bottom: 42px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    margin-right: 225px;
+}
+.product_details{
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+    padding-bottom: 6px;
+}
+.quantity{
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+    display: flex;
+}
+.cross{
+    margin-top: 22px;
+    margin-right: 28px;
+    fill:#575757;
+    &:hover{
+        fill:$highlighted_color;
+        transition: 0.4s;
+    }
+}
+.color_price{
+    color: $highlighted_color;
+}
+.count{
+    border:1px solid #EAEAEA;
+    margin-left: 24.4px;
+    width: 44px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    color: #575757;
+}
+.form_checkout{
+    display: flex;
+    flex-direction: column;
+}
+.form_box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 129px;
+}
+.field{
+    margin-top: 21px;
+    padding-top: 12.5px;
+    padding-bottom: 12px;
+    padding-left: 17.24px;
+    border: 1px solid #A4A4A4;
+}
+.field_name{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    padding-top: 10px;
+}
+.country{
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    width: 360px;
+}
+.state{
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #222222;
+    width: 360px;
+}
+.postcode{
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #222222;
+    width: 360px;
+}
+.quote{
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    width: 104px;
+    padding-left: 15.21px;
+}
+.total_price{
+    background-color: #F5F3F3; 
+    margin-top: 57.5px;
+    margin-left: 128px;
+}
+.sub_total{
+    display: flex;
+    justify-content: end;
+    padding-top: 39px;
+    padding-bottom: 12px;
+    padding-right: 34px;
+}
+.grand_total{
+    display: flex;
+    justify-content: end;
+    padding-right: 37px;
+}
+.sub_total_text{
+    padding-right: 20px;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+}
+.grand_total_text{
+    padding-right: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+.checkout{
+    display: block;
+    margin: 15px 43px 42px 44px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: $highlighted_color;
+    padding: 15px 43px 16px 41px;
+    &:hover{
+        background-color:#9b2938;
+        transition: 0.4s;
+    }
+}
+.line{
+    display: block;
+    text-align: center;     
+}
+.clear_cart_continue{
+    display: flex; 
+    margin-top: 52px;
+    margin-bottom: 128px;
+    
+}
+.clear_cart_btn{
+    border: 1px solid #A4A4A4;
+    background-color: white;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding: 16.5px 40.5px 15.5px 38.5px;
+    &:hover{
+        border: 1px solid#f1afb8;
+        background-color: #f1afb8;
+        color: #FFFFFF;
+        transition: 0.4s;
+    }
+}
+.continue_shopping_btn{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-left: 192px;
+    border: 1px solid #A4A4A4;
+    padding: 16.5px 40.5px 15.5px 38.5px;
+    &:hover{
+        border: 1px solid#f1afb8;
+        background-color: #f1afb8;
+        color: #FFFFFF;
+        transition: 0.4s;
+    }
+}

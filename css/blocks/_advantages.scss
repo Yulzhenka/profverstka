@@ -1,0 +1,73 @@
+.advantages{
+    background-color: #222224;
+    margin-top: 95px;
+}
+.adv_container{
+    display: flex;
+    justify-content: space-around;
+}
+.advcol{
+    text-align: center;
+    padding-top: 104px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    padding-right: 30px;
+}
+
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+
+.car svg{
+    fill: #F16D7F;  
+}
+
+.car:hover svg{
+    animation: slide-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.percent svg{
+    fill: #F16D7F;
+}
+.percent:hover svg{
+        transform: scale(1.7,1.7);
+        transition: 0.5s;
+    }
+.crown svg{ 
+    fill: #F16D7F; 
+}   
+.crown:hover svg{      
+    fill: goldenrod;
+    transition: 0.5s;
+    transform: rotate(360deg);
+    transition: 0.8s;
+    }
+
+
+.adv_delivery{
+    padding-top: 28px;
+}
+.adv_sales{
+    padding-top: 19px;
+}
+.adv_qual{
+    padding-top: 25px; 
+}
+.adv_text{
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+    padding-top: 16px;
+    padding-bottom: 104px;
+}

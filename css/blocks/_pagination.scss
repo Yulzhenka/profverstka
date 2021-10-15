@@ -1,0 +1,65 @@
+.pagination {
+    margin-left: 37.5%;
+    border: 1px solid #ebebeb;
+    width: 283px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.arrow_pag{
+    fill:black;
+    &:hover{
+        fill: $highlighted_color;
+        transition: 0.4s;
+    }
+}
+.pag_num {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ebebeb;
+    padding-top: 12px;
+    padding-bottom: 12.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    color: #C4C4C4;
+    background-color: white;
+    &:hover{
+        color: $highlighted_color;
+        transition: 0.4s;
+    }
+}
+
+.points {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C4C4C4;
+    padding: 0px;
+    letter-spacing: 2px;
+}
+.before {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C4C4C4;
+    padding-top: 11.5px;
+    padding-bottom: 12.5px;
+    padding-right: 0px;
+    padding-left: 10px;
+    border: none;
+    background-color: white;
+}
+.after {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C4C4C4;
+    padding-top: 11.5px;
+    padding-bottom: 12.5px;
+    padding-left: 0px;
+    padding-right: 10px;
+    border: none;
+    background-color: white;
+}

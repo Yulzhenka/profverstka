@@ -1,0 +1,31 @@
+.intro{
+    background: #F1E4E6;
+}
+.intro_container{
+    height: 765px;
+    background-image: url(../img/intro-pic.png);
+    background-repeat: no-repeat;
+    background-position-x: -226px;
+    background-position-y: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.intro_title{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 40px;
+    color: #222222;
+    border-left: 12px solid $highlighted_color;
+    padding-left: 16px;
+    margin-right: 90px;
+}
+.intro_title_small{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+.title_pink{
+    color: $highlighted_color;
+}

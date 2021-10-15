@@ -1,0 +1,76 @@
+.feedback_subscribe{
+    background-color: rgba(244, 244, 244, 0.7);
+    background-image: url(../img/feedback_bs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    height: 448px;
+}
+.fs_container{
+    
+    display: flex;
+    justify-content: space-between;    
+}
+.feedback{
+    padding-top: 100px;
+    width: 359px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+.feedback_text{
+    padding-top: 33px;
+}
+.fb_italic{
+    font-style: italic;
+}
+.subscribe{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 154%;
+    text-align: center;
+    color: #222224;
+    padding-right: 140px;
+}
+.sbscrb{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+}
+.form{
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+.pole{
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #222224;
+    opacity: 0.67;
+    width: 256px;
+    height: 49px;
+    padding-left: 22px;
+    background-color: #E1E1E1;
+    border: transparent;
+    border-radius:  35px 0 0 35px;
+}
+
+.btn_sbscrb{
+    width: 100px;
+    border: transparent;
+    background-color: $highlighted_color;
+    border-radius: 0 35px 35px 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 17px;
+    &:hover{
+        background-color: #9b2938;
+        transition: 0.4s;
+    }
+}

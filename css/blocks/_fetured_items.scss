@@ -1,0 +1,78 @@
+.fetured_items{
+    
+}
+.fetured_items_container{
+    text-align: center;
+    
+    
+}
+.fet_it_head{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+.fet_text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+}
+.card_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 35px;
+    list-style-type: none;
+}
+.card_box{
+    background: #F8F8F8;
+    margin-bottom: 30px;
+    width: 360px;
+    text-align: start;
+    
+}
+.card_pic{
+    width: 360px;
+    height: 430px;
+}
+
+.card_heading{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding-top: 25px;
+    padding-left: 18px;
+}
+.card_text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+}
+.card_price{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $highlighted_color;
+    padding-bottom: 20px;
+    padding-left: 18px;
+}
+.btn_all_prod{
+    text-decoration: none;
+    border: 1px solid $highlighted_color;
+    padding: 14px 38px;
+    font-size: 16px;
+    line-height: 19px;
+    color: $highlighted_color;
+    &:hover{
+        color: #FFFFFF;
+        background-color: $highlighted_color;
+        transition: 0.4s;
+    }
+}
