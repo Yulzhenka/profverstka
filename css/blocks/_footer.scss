@@ -44,3 +44,11 @@
         margin-right: 0px;
     }
 }
+@media(max-width:760px){
+    .footer_container{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 43px;
+        padding-bottom: 24px;
+    }
+}
