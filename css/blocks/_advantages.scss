@@ -71,3 +71,22 @@
     padding-top: 16px;
     padding-bottom: 104px;
 }
+@media(max-width:1200px) {
+    .adv_container{
+        flex-direction: column;
+        width: 360px;
+        padding-top: 48px;
+    }
+    .adv_text{
+        padding-bottom: 48.37px;
+    }
+    .advcol{
+        padding-top: 0px;
+    }
+
+}
+@media(max-width:760px) {
+    .advantages{
+        padding-left: 33px;
+    }
+}

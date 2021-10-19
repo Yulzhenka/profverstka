@@ -14,6 +14,16 @@ body, button {
     width: 1140px;
     margin: 0 auto;
 }
+@media(max-width:1200px){
+    .container{
+        width: 735px;
+    }
+}
+@media(max-width:760px){
+    .container{
+        width: 375px;
+    }
+}
 /*MAIN PAGE*/
 
 @import "blocks/_header.scss";

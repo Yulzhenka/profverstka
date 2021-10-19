@@ -129,7 +129,7 @@
     justify-content: end;
     padding-top: 39px;
     padding-bottom: 12px;
-    padding-right: 34px;
+    padding-right: 16px;
 }
 .grand_total{
     display: flex;
@@ -137,6 +137,14 @@
     padding-right: 37px;
 }
 .sub_total_text{
+    font-weight: 400;
+    padding-right: 20px;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+}
+.sub_total_number{
+    font-weight: 400;
     padding-right: 20px;
     font-size: 11px;
     line-height: 13px;
@@ -170,6 +178,7 @@
 }
 .clear_cart_continue{
     display: flex; 
+    justify-content: space-between;
     margin-top: 52px;
     margin-bottom: 128px;
     
@@ -203,5 +212,87 @@
         background-color: #f1afb8;
         color: #FFFFFF;
         transition: 0.4s;
+    }
+}
+@media(max-width:1200px) {
+    .selected_item_form_box{
+        flex-direction: column;
+    }
+    .clear_cart_continue{
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+    .continue_shopping_btn{
+        margin-left: 0px;
+    }
+    .form_box{
+        margin-left: 0px;
+    }
+    .form_checkout{
+        flex-direction: row;
+    }
+    .total_price{
+        margin-top: 49px;
+        margin-left: 14px;
+        height: 214px;
+    }
+    .form_checkout{
+        margin-bottom: 140px;
+    }
+}
+@media(max-width:760px){
+    .clear_cart_continue{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .form_checkout{
+        flex-direction: column;
+        margin-bottom: 96px;
+    }
+    .continue_shopping_btn{
+        font-size: 12px;
+        line-height: 14px;
+        padding:9px 0px 9px 0px;
+        width: 175px;
+        text-align: center;
+    }
+    .clear_cart_btn{
+        font-size: 12px;
+        line-height: 14px;
+        padding: 0px;
+        width: 175px;
+    }
+    .selected_item_discribe{
+        padding-left: 0px;
+        padding-top: 0px;
+        margin-top: 13.52px;
+    }
+    .selected_item_img{
+        width: 144px;
+        height: 188px;
+        margin-right: 17px;
+    }
+    .product_name{
+        margin-right: 0px;
+        font-size: 16px;
+        line-height: 19px;
+        padding-bottom: 26px;
+    }
+    .product_details{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .quantity{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .cross{
+        width: 10px;
+        height: 11px;
+    }
+    .selected_item_form_box{
+        padding-top: 36px;
     }
 }

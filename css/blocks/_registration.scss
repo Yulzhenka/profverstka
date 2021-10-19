@@ -128,3 +128,27 @@
     padding-left: 23px;
     padding-bottom: 16px;
 }
+@media(max-width:1200px) {
+    .loyalty{
+        margin-left: 22.5px;
+    }
+    .loyalty_heading{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        padding-bottom: 32px;
+    }
+    .loyalty_text{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .loyalty_points_box{
+        margin-bottom: 9px;
+    }
+    .loyalty_points{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
