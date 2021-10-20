@@ -16,6 +16,15 @@
     flex-direction: column;
     justify-content: center;
 }
+@media(max-width:1200px) {
+    .cat_item{
+        width: 232px;
+        height: 168px;
+    }
+    .cat_item_acc{
+        height: 116px;
+    }
+}
 .cat_sale{
     font-weight: 400;
     font-size: 16px;
@@ -51,3 +60,25 @@
     height: 180px;
     background-image: url(../img/cat_acc.jpg);
 }
+@media(max-width:1200px) {
+    .cat_item_acc{
+        height: 116px;
+    }
+}
+@media(max-width:760px) {
+    .cat_item{
+        width: 344px;
+        height: 249px;
+        margin-bottom: 32px;
+        margin-left: 15px;
+    }
+    .cat_item_acc{
+        height: 111px;
+        margin-top: 0px;
+    }
+    .categories{
+        padding-bottom: 32px;
+    }
+    
+}
+

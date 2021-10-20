@@ -29,3 +29,24 @@
 .title_pink{
     color: $highlighted_color;
 }
+@media(max-width:1200px){
+    .intro_container{
+        height: 368px;
+        background-image: url(/img/introman.png);
+        background-position-x: 0px;
+    }
+    .intro_title{
+        padding-top: 15px;
+        font-size: 44px;
+        line-height: 30px;
+        margin-right: 23px;
+    }
+    .intro_title_small{
+        font-size: 24px;
+    }
+}
+@media(max-width:760px){
+    .intro_container{
+        background-image: none;
+    }
+}

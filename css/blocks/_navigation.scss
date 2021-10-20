@@ -45,3 +45,11 @@ details.menu_bord[open] .menu_bord_body {
     width: 200px;
     background-color: black;
 }
+@media(max-width:760px){
+    .nav_container{
+        width: 345px;
+        flex-direction: column;
+        padding-top: 24px;
+        padding-bottom: 46px;
+    }
+}

@@ -74,3 +74,26 @@
         transition: 0.4s;
     }
 }
+@media(max-width:1200px){
+    .fs_container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .feedback_subscribe{
+        height: 614px;
+    }
+    .subscribe{
+        padding: 0px;
+        font-size: 18px;
+    }
+    .feedback{
+        padding-top: 48px;
+        padding-bottom: 50px;
+        font-size: 20px;
+    }
+}
+@media(max-width:760px){
+    .feedback_subscribe{
+        height: 550px;
+    }
+}

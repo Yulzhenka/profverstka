@@ -25,7 +25,7 @@
 } 
 .descript{
 }
-.discript_container{
+.descript_container{
     margin-top: -62px;
     background-color: white;
     border: 1px solid #EAEAEA;
@@ -128,4 +128,66 @@
     text-align: center;
     padding-top: 128px;
     padding-bottom: 33px;  
+}
+@media(max-width:1200px) {
+    .descript_container{
+        padding: 64px 74px 65px 106px;
+        margin-bottom: 100px;
+    }
+    .brand{
+        padding-bottom: 48.5px;
+    }
+    .descript_text{
+        padding: 0px;
+        margin-bottom: 32px;
+    }
+    .product_items_container{
+        padding: 0px;
+    }
+}
+@media(max-width:760px){
+    .descript_container{
+        margin-bottom: 50px;
+        margin: 0;
+        width: 100%;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+    .choose{
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .choose_block{
+        padding-right: 0px;
+    }
+    .choose_what{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .line_prod{
+        width: 174px;
+    }
+    .visible{
+        display: block;
+    }
+    .name_collection{
+        padding-top: 0px;
+    }
+    .brand{
+        padding-bottom: 32px;
+    }
+    .price{
+        padding-bottom: 20px;
+    }
+    .right_slider{
+        position: absolute;
+        right: 0px;
+    }
+    .left_slider{
+        position: absolute;
+        left: 0px;
+    }
+    .img_prod{
+        width: 100%;
+    }
 }
