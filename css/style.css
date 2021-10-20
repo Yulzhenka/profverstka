@@ -403,7 +403,6 @@ body, button {
 
 .btn {
   background-color: transparent;
-  border: 1px solid #FFFFFF;
   padding: 12px;
 }
 
@@ -420,6 +419,9 @@ body, button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  padding: 12px;
 }
 
 .text_overlay {
@@ -1372,6 +1374,10 @@ body, button {
   padding-bottom: 16px;
 }
 
+.invis {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .loyalty {
     margin-left: 22.5px;
@@ -1394,6 +1400,30 @@ body, button {
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
+  }
+  .invis {
+    display: block;
+  }
+}
+
+@media (max-width: 760px) {
+  .registration_heading {
+    text-align: center;
+  }
+  .forms_loyalty {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .join_btn_box {
+    margin-bottom: 0px;
+  }
+  .invis {
+    display: block;
+  }
+  .loyalty {
+    margin-bottom: 80px;
   }
 }
 
@@ -1537,8 +1567,9 @@ details.menu_bord[open] .menu_bord_body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

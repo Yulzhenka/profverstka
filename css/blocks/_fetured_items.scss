@@ -41,7 +41,7 @@
   }
 .btn{
     background-color: transparent;
-    border: 1px solid #FFFFFF;
+    
     padding: 12px;
     &:hover{
         background-color: #eba0aa;
@@ -51,6 +51,9 @@
 .btn_overlay{
     display: flex;
     align-items: center;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    padding: 12px;
 }
 .text_overlay{
     font-weight: 400;

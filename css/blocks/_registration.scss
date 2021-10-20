@@ -128,6 +128,9 @@
     padding-left: 23px;
     padding-bottom: 16px;
 }
+.invis{
+    display: none;
+}
 @media(max-width:1200px) {
     .loyalty{
         margin-left: 22.5px;
@@ -150,5 +153,25 @@
         font-weight: 300;
         font-size: 16px;
         line-height: 19px;
+    }
+    .invis{
+        display: block;
+    }
+}
+@media(max-width:760px){
+    .registration_heading{
+        text-align: center;
+    }
+    .forms_loyalty{
+        flex-direction: column;
+    }
+    .join_btn_box{
+        margin-bottom: 0px;
+    }
+    .invis{
+        display: block;
+    }
+    .loyalty{
+        margin-bottom: 80px;
     }
 }
